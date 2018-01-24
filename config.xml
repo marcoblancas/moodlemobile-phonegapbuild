@@ -2,13 +2,13 @@
 <widget xmlns     = "http://www.w3.org/ns/widgets"
         xmlns:gap = "http://phonegap.com/ns/1.0"
         xmlns:android = "http://schemas.android.com/apk/res/android"
-        id        = "com.moodle.moodlemobile"
+        id        = "es.udima.moodlemobile"
         versionCode = "20210"
-        version   = "3.4.0">
-    <name>Moodle Mobile</name>
+        version   = "3.4.1">
+    <name>UDIMA Moodle Mobile</name>
 
     <description>
-        Moodle Mobile official app
+        UDIMA Moodle Mobile app para estudiantes
     </description>
 
     <author href="http://moodle.com" email="mobile@moodle.com">
@@ -135,7 +135,7 @@
     <gap:plugin name="nl.kingsquare.cordova.background-audio" source="npm" version="1.0.1" />
 
     <gap:plugin name="phonegap-plugin-push" source="npm" version="1.9.2">
-        <param name="SENDER_ID" value="694767596569" />
+        <param name="SENDER_ID" value="52385885816" />
     </gap:plugin>
     <gap:plugin name="cordova-plugin-customurlscheme" source="npm" version="4.3.0">
         <param name="URL_SCHEME" value="moodlemobile" />
